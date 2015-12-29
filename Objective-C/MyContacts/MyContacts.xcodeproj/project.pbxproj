@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D77298921BFA303700AB42D1 /* Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = D77298911BFA303700AB42D1 /* Validation.m */; };
+		D7AE386C1BF521B900946D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE386B1BF521B900946D6C /* main.m */; };
+		D7AE386F1BF521B900946D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE386E1BF521B900946D6C /* AppDelegate.m */; };
+		D7AE38721BF521B900946D6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38711BF521B900946D6C /* ViewController.m */; };
+		D7AE38781BF521B900946D6C /* MyContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38761BF521B900946D6C /* MyContacts.xcdatamodeld */; };
+		D7AE387A1BF521B900946D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38791BF521B900946D6C /* Assets.xcassets */; };
+		D7AE387D1BF521B900946D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AE387B1BF521B900946D6C /* LaunchScreen.storyboard */; };
+		D7AE38881BF521B900946D6C /* MyContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38871BF521B900946D6C /* MyContactsTests.m */; };
+		D7AE38931BF521B900946D6C /* MyContactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38921BF521B900946D6C /* MyContactsUITests.m */; };
+		D7AE38B71BF52EB500946D6C /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38B61BF52EB500946D6C /* Contact.m */; };
+		D7AE38BA1BF5327F00946D6C /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38B91BF5327F00946D6C /* ContactsViewController.m */; };
+		D7AE38C11BF5336000946D6C /* Contact Card-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38BF1BF5336000946D6C /* Contact Card-32.png */; };
+		D7AE38C21BF5336000946D6C /* User Female-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38C01BF5336000946D6C /* User Female-32.png */; };
+		D7AE38C61BF5406B00946D6C /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38C51BF5406B00946D6C /* ContactCell.m */; };
+		D7AE38CA1BF543A300946D6C /* Add User-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38C91BF543A300946D6C /* Add User-25.png */; };
+		D7AE38CE1BF545E500946D6C /* NewContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38CD1BF545E500946D6C /* NewContactViewController.m */; };
+		D7AE38D01BF63DC800946D6C /* female_cartoon_avatar_by_ahninniah-d6fo72f.png in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38CF1BF63DC800946D6C /* female_cartoon_avatar_by_ahninniah-d6fo72f.png */; };
+		D7AE38D41BF6C16600946D6C /* Chat-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38D11BF6C16600946D6C /* Chat-25.png */; };
+		D7AE38D51BF6C16600946D6C /* Message-25.png in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38D21BF6C16600946D6C /* Message-25.png */; };
+		D7AE38D61BF6C16600946D6C /* Phone-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38D31BF6C16600946D6C /* Phone-26.png */; };
+		D7AE38DA1BF6C49400946D6C /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38D91BF6C49400946D6C /* MyProfileViewController.m */; };
+		D7AE38E41BF6D91600946D6C /* myProfilePic.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38E31BF6D91600946D6C /* myProfilePic.tiff */; };
+		D7AE38E61BF6E1BB00946D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38E51BF6E1BB00946D6C /* Main.storyboard */; };
+		D7AE38EA1BF6F57900946D6C /* ContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE38E91BF6F57900946D6C /* ContactDetailViewController.m */; };
+		D7AE38F01BF6FA5100946D6C /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38EB1BF6FA5100946D6C /* images-1.jpg */; };
+		D7AE38F11BF6FA5100946D6C /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38EC1BF6FA5100946D6C /* images-3.jpeg */; };
+		D7AE38F21BF6FA5100946D6C /* images-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38ED1BF6FA5100946D6C /* images-4.jpeg */; };
+		D7AE38F31BF6FA5100946D6C /* images-0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38EE1BF6FA5100946D6C /* images-0.jpeg */; };
+		D7AE38F41BF6FA5100946D6C /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38EF1BF6FA5100946D6C /* images-2.jpeg */; };
+		D7AE38F61BF6FD6C00946D6C /* no-profile-image.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D7AE38F51BF6FD6C00946D6C /* no-profile-image.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7AE38841BF521B900946D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7AE385F1BF521B900946D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AE38661BF521B900946D6C;
+			remoteInfo = MyContacts;
+		};
+		D7AE388F1BF521B900946D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7AE385F1BF521B900946D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AE38661BF521B900946D6C;
+			remoteInfo = MyContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D77298901BFA303700AB42D1 /* Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Validation.h; path = Utils/Validation/Validation.h; sourceTree = "<group>"; };
+		D77298911BFA303700AB42D1 /* Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Validation.m; path = Utils/Validation/Validation.m; sourceTree = "<group>"; };
+		D7AE38671BF521B900946D6C /* MyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AE386B1BF521B900946D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7AE386D1BF521B900946D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7AE386E1BF521B900946D6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7AE38701BF521B900946D6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7AE38711BF521B900946D6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7AE38771BF521B900946D6C /* MyContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyContacts.xcdatamodel; sourceTree = "<group>"; };
+		D7AE38791BF521B900946D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7AE387C1BF521B900946D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7AE387E1BF521B900946D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AE38831BF521B900946D6C /* MyContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AE38871BF521B900946D6C /* MyContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactsTests.m; sourceTree = "<group>"; };
+		D7AE38891BF521B900946D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AE388E1BF521B900946D6C /* MyContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AE38921BF521B900946D6C /* MyContactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyContactsUITests.m; sourceTree = "<group>"; };
+		D7AE38941BF521B900946D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AE38A81BF52A8B00946D6C /* Logs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logs.h; sourceTree = "<group>"; };
+		D7AE38B51BF52EB500946D6C /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Contact.h; path = Model/Contact.h; sourceTree = "<group>"; };
+		D7AE38B61BF52EB500946D6C /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Contact.m; path = Model/Contact.m; sourceTree = "<group>"; };
+		D7AE38B81BF5327F00946D6C /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactsViewController.h; path = Controller/ContactsViewController.h; sourceTree = "<group>"; };
+		D7AE38B91BF5327F00946D6C /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactsViewController.m; path = Controller/ContactsViewController.m; sourceTree = "<group>"; };
+		D7AE38BF1BF5336000946D6C /* Contact Card-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact Card-32.png"; sourceTree = "<group>"; };
+		D7AE38C01BF5336000946D6C /* User Female-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Female-32.png"; sourceTree = "<group>"; };
+		D7AE38C41BF5406B00946D6C /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactCell.h; path = View/Outlets/ContactCell.h; sourceTree = "<group>"; };
+		D7AE38C51BF5406B00946D6C /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactCell.m; path = View/Outlets/ContactCell.m; sourceTree = "<group>"; };
+		D7AE38C91BF543A300946D6C /* Add User-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add User-25.png"; sourceTree = "<group>"; };
+		D7AE38CC1BF545E500946D6C /* NewContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewContactViewController.h; path = View/AddNewContact/NewContactViewController.h; sourceTree = "<group>"; };
+		D7AE38CD1BF545E500946D6C /* NewContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewContactViewController.m; path = View/AddNewContact/NewContactViewController.m; sourceTree = "<group>"; };
+		D7AE38CF1BF63DC800946D6C /* female_cartoon_avatar_by_ahninniah-d6fo72f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "female_cartoon_avatar_by_ahninniah-d6fo72f.png"; sourceTree = "<group>"; };
+		D7AE38D11BF6C16600946D6C /* Chat-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chat-25.png"; sourceTree = "<group>"; };
+		D7AE38D21BF6C16600946D6C /* Message-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Message-25.png"; sourceTree = "<group>"; };
+		D7AE38D31BF6C16600946D6C /* Phone-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Phone-26.png"; sourceTree = "<group>"; };
+		D7AE38D81BF6C49400946D6C /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyProfileViewController.h; path = View/MyProfile/MyProfileViewController.h; sourceTree = "<group>"; };
+		D7AE38D91BF6C49400946D6C /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyProfileViewController.m; path = View/MyProfile/MyProfileViewController.m; sourceTree = "<group>"; };
+		D7AE38E31BF6D91600946D6C /* myProfilePic.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = myProfilePic.tiff; sourceTree = "<group>"; };
+		D7AE38E51BF6E1BB00946D6C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D7AE38E81BF6F57900946D6C /* ContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactDetailViewController.h; path = View/ContactDetail/ContactDetailViewController.h; sourceTree = "<group>"; };
+		D7AE38E91BF6F57900946D6C /* ContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactDetailViewController.m; path = View/ContactDetail/ContactDetailViewController.m; sourceTree = "<group>"; };
+		D7AE38EB1BF6FA5100946D6C /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
+		D7AE38EC1BF6FA5100946D6C /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
+		D7AE38ED1BF6FA5100946D6C /* images-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-4.jpeg"; sourceTree = "<group>"; };
+		D7AE38EE1BF6FA5100946D6C /* images-0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-0.jpeg"; sourceTree = "<group>"; };
+		D7AE38EF1BF6FA5100946D6C /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
+		D7AE38F51BF6FD6C00946D6C /* no-profile-image.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "no-profile-image.tiff"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7AE38641BF521B900946D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE38801BF521B900946D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE388B1BF521B900946D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D772988F1BFA2FF700AB42D1 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				D77298901BFA303700AB42D1 /* Validation.h */,
+				D77298911BFA303700AB42D1 /* Validation.m */,
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		D7AE385E1BF521B900946D6C = {
+			isa = PBXGroup;
+			children = (
+				D7AE38691BF521B900946D6C /* MyContacts */,
+				D7AE38861BF521B900946D6C /* MyContactsTests */,
+				D7AE38911BF521B900946D6C /* MyContactsUITests */,
+				D7AE38681BF521B900946D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7AE38681BF521B900946D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38671BF521B900946D6C /* MyContacts.app */,
+				D7AE38831BF521B900946D6C /* MyContactsTests.xctest */,
+				D7AE388E1BF521B900946D6C /* MyContactsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7AE38691BF521B900946D6C /* MyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38A51BF526B000946D6C /* Utils */,
+				D7AE38A41BF5269C00946D6C /* Controller */,
+				D7AE38A31BF5269700946D6C /* View */,
+				D7AE38A21BF5268C00946D6C /* Model */,
+				D7AE38A01BF5265000946D6C /* Resources */,
+				D7AE386D1BF521B900946D6C /* AppDelegate.h */,
+				D7AE386E1BF521B900946D6C /* AppDelegate.m */,
+				D7AE38701BF521B900946D6C /* ViewController.h */,
+				D7AE38E51BF6E1BB00946D6C /* Main.storyboard */,
+				D7AE38711BF521B900946D6C /* ViewController.m */,
+				D7AE38791BF521B900946D6C /* Assets.xcassets */,
+				D7AE387B1BF521B900946D6C /* LaunchScreen.storyboard */,
+				D7AE387E1BF521B900946D6C /* Info.plist */,
+				D7AE38761BF521B900946D6C /* MyContacts.xcdatamodeld */,
+				D7AE386A1BF521B900946D6C /* Supporting Files */,
+			);
+			path = MyContacts;
+			sourceTree = "<group>";
+		};
+		D7AE386A1BF521B900946D6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE386B1BF521B900946D6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7AE38861BF521B900946D6C /* MyContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38871BF521B900946D6C /* MyContactsTests.m */,
+				D7AE38891BF521B900946D6C /* Info.plist */,
+			);
+			path = MyContactsTests;
+			sourceTree = "<group>";
+		};
+		D7AE38911BF521B900946D6C /* MyContactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38921BF521B900946D6C /* MyContactsUITests.m */,
+				D7AE38941BF521B900946D6C /* Info.plist */,
+			);
+			path = MyContactsUITests;
+			sourceTree = "<group>";
+		};
+		D7AE38A01BF5265000946D6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38A11BF5265A00946D6C /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D7AE38A11BF5265A00946D6C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38EB1BF6FA5100946D6C /* images-1.jpg */,
+				D7AE38F51BF6FD6C00946D6C /* no-profile-image.tiff */,
+				D7AE38EC1BF6FA5100946D6C /* images-3.jpeg */,
+				D7AE38ED1BF6FA5100946D6C /* images-4.jpeg */,
+				D7AE38EE1BF6FA5100946D6C /* images-0.jpeg */,
+				D7AE38EF1BF6FA5100946D6C /* images-2.jpeg */,
+				D7AE38E31BF6D91600946D6C /* myProfilePic.tiff */,
+				D7AE38D11BF6C16600946D6C /* Chat-25.png */,
+				D7AE38D21BF6C16600946D6C /* Message-25.png */,
+				D7AE38D31BF6C16600946D6C /* Phone-26.png */,
+				D7AE38CF1BF63DC800946D6C /* female_cartoon_avatar_by_ahninniah-d6fo72f.png */,
+				D7AE38C91BF543A300946D6C /* Add User-25.png */,
+				D7AE38BF1BF5336000946D6C /* Contact Card-32.png */,
+				D7AE38C01BF5336000946D6C /* User Female-32.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D7AE38A21BF5268C00946D6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38B51BF52EB500946D6C /* Contact.h */,
+				D7AE38B61BF52EB500946D6C /* Contact.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D7AE38A31BF5269700946D6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38E71BF6F55900946D6C /* ContactDetail */,
+				D7AE38D71BF6C47000946D6C /* MyProfile */,
+				D7AE38CB1BF5457E00946D6C /* AddNewContact */,
+				D7AE38C31BF5401700946D6C /* Outlets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D7AE38A41BF5269C00946D6C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38B81BF5327F00946D6C /* ContactsViewController.h */,
+				D7AE38B91BF5327F00946D6C /* ContactsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D7AE38A51BF526B000946D6C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D772988F1BFA2FF700AB42D1 /* Validation */,
+				D7AE38A61BF526BD00946D6C /* Logs */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D7AE38A61BF526BD00946D6C /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38A81BF52A8B00946D6C /* Logs.h */,
+			);
+			name = Logs;
+			sourceTree = "<group>";
+		};
+		D7AE38C31BF5401700946D6C /* Outlets */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38C41BF5406B00946D6C /* ContactCell.h */,
+				D7AE38C51BF5406B00946D6C /* ContactCell.m */,
+			);
+			name = Outlets;
+			sourceTree = "<group>";
+		};
+		D7AE38CB1BF5457E00946D6C /* AddNewContact */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38CC1BF545E500946D6C /* NewContactViewController.h */,
+				D7AE38CD1BF545E500946D6C /* NewContactViewController.m */,
+			);
+			name = AddNewContact;
+			sourceTree = "<group>";
+		};
+		D7AE38D71BF6C47000946D6C /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38D81BF6C49400946D6C /* MyProfileViewController.h */,
+				D7AE38D91BF6C49400946D6C /* MyProfileViewController.m */,
+			);
+			name = MyProfile;
+			sourceTree = "<group>";
+		};
+		D7AE38E71BF6F55900946D6C /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D7AE38E81BF6F57900946D6C /* ContactDetailViewController.h */,
+				D7AE38E91BF6F57900946D6C /* ContactDetailViewController.m */,
+			);
+			name = ContactDetail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7AE38661BF521B900946D6C /* MyContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AE38971BF521B900946D6C /* Build configuration list for PBXNativeTarget "MyContacts" */;
+			buildPhases = (
+				D7AE38631BF521B900946D6C /* Sources */,
+				D7AE38641BF521B900946D6C /* Frameworks */,
+				D7AE38651BF521B900946D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyContacts;
+			productName = MyContacts;
+			productReference = D7AE38671BF521B900946D6C /* MyContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7AE38821BF521B900946D6C /* MyContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AE389A1BF521B900946D6C /* Build configuration list for PBXNativeTarget "MyContactsTests" */;
+			buildPhases = (
+				D7AE387F1BF521B900946D6C /* Sources */,
+				D7AE38801BF521B900946D6C /* Frameworks */,
+				D7AE38811BF521B900946D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7AE38851BF521B900946D6C /* PBXTargetDependency */,
+			);
+			name = MyContactsTests;
+			productName = MyContactsTests;
+			productReference = D7AE38831BF521B900946D6C /* MyContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7AE388D1BF521B900946D6C /* MyContactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AE389D1BF521B900946D6C /* Build configuration list for PBXNativeTarget "MyContactsUITests" */;
+			buildPhases = (
+				D7AE388A1BF521B900946D6C /* Sources */,
+				D7AE388B1BF521B900946D6C /* Frameworks */,
+				D7AE388C1BF521B900946D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7AE38901BF521B900946D6C /* PBXTargetDependency */,
+			);
+			name = MyContactsUITests;
+			productName = MyContactsUITests;
+			productReference = D7AE388E1BF521B900946D6C /* MyContactsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7AE385F1BF521B900946D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = SijiaDavis;
+				TargetAttributes = {
+					D7AE38661BF521B900946D6C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D7AE38821BF521B900946D6C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D7AE38661BF521B900946D6C;
+					};
+					D7AE388D1BF521B900946D6C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D7AE38661BF521B900946D6C;
+					};
+				};
+			};
+			buildConfigurationList = D7AE38621BF521B900946D6C /* Build configuration list for PBXProject "MyContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7AE385E1BF521B900946D6C;
+			productRefGroup = D7AE38681BF521B900946D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7AE38661BF521B900946D6C /* MyContacts */,
+				D7AE38821BF521B900946D6C /* MyContactsTests */,
+				D7AE388D1BF521B900946D6C /* MyContactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7AE38651BF521B900946D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AE38CA1BF543A300946D6C /* Add User-25.png in Resources */,
+				D7AE387D1BF521B900946D6C /* LaunchScreen.storyboard in Resources */,
+				D7AE38D41BF6C16600946D6C /* Chat-25.png in Resources */,
+				D7AE38D51BF6C16600946D6C /* Message-25.png in Resources */,
+				D7AE38F31BF6FA5100946D6C /* images-0.jpeg in Resources */,
+				D7AE38D01BF63DC800946D6C /* female_cartoon_avatar_by_ahninniah-d6fo72f.png in Resources */,
+				D7AE38F41BF6FA5100946D6C /* images-2.jpeg in Resources */,
+				D7AE38F61BF6FD6C00946D6C /* no-profile-image.tiff in Resources */,
+				D7AE38E61BF6E1BB00946D6C /* Main.storyboard in Resources */,
+				D7AE387A1BF521B900946D6C /* Assets.xcassets in Resources */,
+				D7AE38D61BF6C16600946D6C /* Phone-26.png in Resources */,
+				D7AE38C11BF5336000946D6C /* Contact Card-32.png in Resources */,
+				D7AE38E41BF6D91600946D6C /* myProfilePic.tiff in Resources */,
+				D7AE38F21BF6FA5100946D6C /* images-4.jpeg in Resources */,
+				D7AE38F11BF6FA5100946D6C /* images-3.jpeg in Resources */,
+				D7AE38C21BF5336000946D6C /* User Female-32.png in Resources */,
+				D7AE38F01BF6FA5100946D6C /* images-1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE38811BF521B900946D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE388C1BF521B900946D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7AE38631BF521B900946D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AE38781BF521B900946D6C /* MyContacts.xcdatamodeld in Sources */,
+				D7AE38DA1BF6C49400946D6C /* MyProfileViewController.m in Sources */,
+				D7AE38BA1BF5327F00946D6C /* ContactsViewController.m in Sources */,
+				D77298921BFA303700AB42D1 /* Validation.m in Sources */,
+				D7AE38CE1BF545E500946D6C /* NewContactViewController.m in Sources */,
+				D7AE38EA1BF6F57900946D6C /* ContactDetailViewController.m in Sources */,
+				D7AE38721BF521B900946D6C /* ViewController.m in Sources */,
+				D7AE38B71BF52EB500946D6C /* Contact.m in Sources */,
+				D7AE386F1BF521B900946D6C /* AppDelegate.m in Sources */,
+				D7AE38C61BF5406B00946D6C /* ContactCell.m in Sources */,
+				D7AE386C1BF521B900946D6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE387F1BF521B900946D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AE38881BF521B900946D6C /* MyContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AE388A1BF521B900946D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AE38931BF521B900946D6C /* MyContactsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7AE38851BF521B900946D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AE38661BF521B900946D6C /* MyContacts */;
+			targetProxy = D7AE38841BF521B900946D6C /* PBXContainerItemProxy */;
+		};
+		D7AE38901BF521B900946D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AE38661BF521B900946D6C /* MyContacts */;
+			targetProxy = D7AE388F1BF521B900946D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7AE387B1BF521B900946D6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7AE387C1BF521B900946D6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7AE38951BF521B900946D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7AE38961BF521B900946D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7AE38981BF521B900946D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sijiadavis.MyContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7AE38991BF521B900946D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sijiadavis.MyContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D7AE389B1BF521B900946D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sijiadavis.MyContactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyContacts.app/MyContacts";
+			};
+			name = Debug;
+		};
+		D7AE389C1BF521B900946D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sijiadavis.MyContactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyContacts.app/MyContacts";
+			};
+			name = Release;
+		};
+		D7AE389E1BF521B900946D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sijiadavis.MyContactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyContacts;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D7AE389F1BF521B900946D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sijiadavis.MyContactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyContacts;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7AE38621BF521B900946D6C /* Build configuration list for PBXProject "MyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AE38951BF521B900946D6C /* Debug */,
+				D7AE38961BF521B900946D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AE38971BF521B900946D6C /* Build configuration list for PBXNativeTarget "MyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AE38981BF521B900946D6C /* Debug */,
+				D7AE38991BF521B900946D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AE389A1BF521B900946D6C /* Build configuration list for PBXNativeTarget "MyContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AE389B1BF521B900946D6C /* Debug */,
+				D7AE389C1BF521B900946D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AE389D1BF521B900946D6C /* Build configuration list for PBXNativeTarget "MyContactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AE389E1BF521B900946D6C /* Debug */,
+				D7AE389F1BF521B900946D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7AE38761BF521B900946D6C /* MyContacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7AE38771BF521B900946D6C /* MyContacts.xcdatamodel */,
+			);
+			currentVersion = D7AE38771BF521B900946D6C /* MyContacts.xcdatamodel */;
+			path = MyContacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7AE385F1BF521B900946D6C /* Project object */;
+}
