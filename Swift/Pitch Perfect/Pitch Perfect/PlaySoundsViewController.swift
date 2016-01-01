@@ -46,6 +46,7 @@ class PlaySoundsViewController: UIViewController {
  
     func playAudio(speed: String){
         audioPlayer?.stop()
+        audioEngine.stop()
         if (speed=="slow") {
             audioPlayer?.rate = 0.5
         }
@@ -100,9 +101,12 @@ class PlaySoundsViewController: UIViewController {
         audioPlayerNode.scheduleFile(audioFile, atTime: nil, completionHandler: nil)
         try! audioEngine.start()
         audioPlayerNode.play()
+        
+         stopButton.hidden = false
     }
     
     @IBAction func clickStop(sender: UIButton) {
         audioPlayer?.stop()
+        audioEngine.stop()
     }
 }
