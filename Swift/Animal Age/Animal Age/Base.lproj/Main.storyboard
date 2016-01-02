@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animal_Age" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog-and-cat-clipart_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ime-RD-DiT">
+                                <rect key="frame" x="38" y="286" width="243" height="262"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="243" id="CMK-Rf-k4l"/>
+                                    <constraint firstAttribute="height" constant="262" id="XeN-fn-LFX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your age?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOt-PX-9qk">
+                                <rect key="frame" x="89" y="28" width="142" height="24.5"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.54417737193476945" blue="0.78232679259280924" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="input your age here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gu0-SH-tnO">
+                                <rect key="frame" x="89" y="69" width="142" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="I0e-la-KAB"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4r-y8-bUy">
+                                <rect key="frame" x="43" y="114" width="235" height="30"/>
+                                <state key="normal" title="show me my dog age and cat age!"/>
+                                <connections>
+                                    <action selector="submitUserAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JPx-pw-5d9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cat age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRS-HU-o7p">
+                                <rect key="frame" x="224" y="173" width="57" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLg-Kt-Yla">
+                                <rect key="frame" x="43" y="216" width="63" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hc9-N0-0xI">
+                                <rect key="frame" x="224" y="215" width="57" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="dog age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCN-ha-1zR">
+                                <rect key="frame" x="43" y="172" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gu0-SH-tnO" firstAttribute="top" secondItem="AOt-PX-9qk" secondAttribute="bottom" constant="16.5" id="9ux-jJ-l6i"/>
+                            <constraint firstItem="AOt-PX-9qk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ayv-Ww-XtV"/>
+                            <constraint firstItem="gu0-SH-tnO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dL2-1I-7U7"/>
+                            <constraint firstItem="AOt-PX-9qk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="hqy-H0-jp8"/>
+                            <constraint firstItem="ime-RD-DiT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lWE-Pl-re6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ime-RD-DiT" secondAttribute="bottom" constant="20" id="ldg-up-LSt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="catAgeLabel" destination="qRS-HU-o7p" id="x0Z-eP-T2L"/>
+                        <outlet property="catAgeResult" destination="hc9-N0-0xI" id="0b6-lw-TRi"/>
+                        <outlet property="dogAgeLabel" destination="HCN-ha-1zR" id="gZh-3M-FJq"/>
+                        <outlet property="dogAgeResult" destination="GLg-Kt-Yla" id="Ilr-Fw-uYb"/>
+                        <outlet property="submitButton" destination="N4r-y8-bUy" id="VIh-4o-57n"/>
+                        <outlet property="userAge" destination="gu0-SH-tnO" id="XAC-ad-h8G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181" y="334"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dog-and-cat-clipart_1.png" width="500" height="500"/>
+    </resources>
+</document>

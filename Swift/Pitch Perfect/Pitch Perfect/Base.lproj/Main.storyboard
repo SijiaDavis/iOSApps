@@ -38,6 +38,14 @@
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FSC-fp-YrP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" press microphone to start recording" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUj-hD-i5j">
+                                <rect key="frame" x="27" y="122" width="267" height="25"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
+                                <color key="textColor" red="0.12841670250000001" green="0.2005548469" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.99670729709999994" green="0.58879651369999997" blue="0.6225798977" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-2" height="2"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.58891050749999996" green="0.92876103669999999" blue="0.99670729709999994" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -45,8 +53,10 @@
                             <constraint firstItem="jAQ-lo-aVC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5iV-FW-crg"/>
                             <constraint firstItem="jAQ-lo-aVC" firstAttribute="top" secondItem="dJO-kj-4FB" secondAttribute="bottom" constant="8" id="7al-La-o28"/>
                             <constraint firstItem="o51-ha-6d6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A2Q-Ft-7IT"/>
+                            <constraint firstItem="yUj-hD-i5j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="58" id="PGv-92-ced"/>
                             <constraint firstItem="dJO-kj-4FB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a2R-BA-Gig"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="o51-ha-6d6" secondAttribute="bottom" constant="25" id="tig-3d-zXl"/>
+                            <constraint firstItem="yUj-hD-i5j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xxq-QT-dFS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Record your voice" id="bNX-Y0-ikw"/>
