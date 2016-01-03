@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Guess_Finger_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="how many fingers am I holding up?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDW-uB-LSg">
+                                <rect key="frame" x="30" y="74" width="265" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your guess here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DsH-Mt-6m3">
+                                <rect key="frame" x="87" y="130" width="161" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lwd-0k-Igq">
+                                <rect key="frame" x="126" y="269" width="73" height="30"/>
+                                <state key="normal" title="See result!"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftE-u3-Qpw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYf-Sn-aIX">
+                                <rect key="frame" x="21" y="361" width="278" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="r5s-xo-aUd"/>
+                                    <constraint firstAttribute="width" constant="278" id="y4I-bE-zeu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="iYf-Sn-aIX" secondAttribute="trailing" constant="5" id="23x-fn-sQQ"/>
+                            <constraint firstItem="DsH-Mt-6m3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Icf-Po-Ixg"/>
+                            <constraint firstItem="Lwd-0k-Igq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JoW-Gx-iBD"/>
+                            <constraint firstItem="Lwd-0k-Igq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LYX-qY-7vB"/>
+                            <constraint firstItem="iYf-Sn-aIX" firstAttribute="top" secondItem="Lwd-0k-Igq" secondAttribute="bottom" constant="62" id="Nuh-s8-dRP"/>
+                            <constraint firstItem="DsH-Mt-6m3" firstAttribute="top" secondItem="fDW-uB-LSg" secondAttribute="bottom" constant="35" id="XAk-YA-FJF"/>
+                            <constraint firstItem="fDW-uB-LSg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XFo-m0-j8U"/>
+                            <constraint firstItem="fDW-uB-LSg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="54" id="XLw-K7-9lJ"/>
+                            <constraint firstItem="iYf-Sn-aIX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qXP-b7-fn2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="iYf-Sn-aIX" id="Om7-xy-PHK"/>
+                        <outlet property="textFieldValue" destination="DsH-Mt-6m3" id="IZK-R0-wyE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="238" y="341"/>
+        </scene>
+    </scenes>
+</document>
