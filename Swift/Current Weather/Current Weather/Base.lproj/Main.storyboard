@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Current_Weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="christmas-light-background-small.png" translatesAutoresizingMaskIntoConstraints="NO" id="JAJ-bY-BIq">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Current Weather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lla-k1-vZg">
+                                <rect key="frame" x="66" y="39" width="243" height="53"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="25"/>
+                                <color key="textColor" red="0.57439795999999999" green="0.99670729709999994" blue="0.43462222610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtu-MD-S77">
+                                <rect key="frame" x="145" y="202" width="84" height="30"/>
+                                <state key="normal" title="Get weather">
+                                    <color key="titleColor" red="0.57439795999999999" green="0.99670729709999994" blue="0.43462222610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getWeather:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mR3-Qh-zEW"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fiY-Ig-jpC">
+                                <rect key="frame" x="113" y="121" width="149" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gcm-e1-qev">
+                                <rect key="frame" x="11" y="248" width="352.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.25078430740000002" green="1" blue="0.34708534530000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JAJ-bY-BIq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="2U4-xE-7HH"/>
+                            <constraint firstItem="fiY-Ig-jpC" firstAttribute="top" secondItem="Lla-k1-vZg" secondAttribute="bottom" constant="29" id="77y-ql-aqA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JAJ-bY-BIq" secondAttribute="trailing" constant="-20" id="ADc-29-kUL"/>
+                            <constraint firstItem="Gcm-e1-qev" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DSh-L0-Nv1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gcm-e1-qev" secondAttribute="trailing" constant="2" id="EMx-uo-p2t"/>
+                            <constraint firstItem="JAJ-bY-BIq" firstAttribute="leading" secondItem="Gcm-e1-qev" secondAttribute="trailing" constant="-363.5" id="I86-JS-Znc"/>
+                            <constraint firstItem="Gcm-e1-qev" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="2" id="LaW-g5-wkw"/>
+                            <constraint firstItem="Gcm-e1-qev" firstAttribute="top" secondItem="xtu-MD-S77" secondAttribute="bottom" constant="16" id="PtZ-0o-NzZ"/>
+                            <constraint firstItem="JAJ-bY-BIq" firstAttribute="top" secondItem="Lla-k1-vZg" secondAttribute="bottom" constant="-72" id="S6Z-Ym-lb5"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JAJ-bY-BIq" secondAttribute="bottom" id="cff-iG-Obk"/>
+                            <constraint firstItem="xtu-MD-S77" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hId-AV-F8W"/>
+                            <constraint firstItem="fiY-Ig-jpC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nUo-rz-MIo"/>
+                            <constraint firstItem="xtu-MD-S77" firstAttribute="top" secondItem="fiY-Ig-jpC" secondAttribute="bottom" constant="51" id="r9e-Cd-gGC"/>
+                            <constraint firstItem="Lla-k1-vZg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tdP-og-0CQ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DSh-L0-Nv1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="cityTextField" destination="fiY-Ig-jpC" id="IOO-5O-Kij"/>
+                        <outlet property="weatherLabel" destination="Gcm-e1-qev" id="x5r-2B-ddp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="387.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="christmas-light-background-small.png" width="551" height="349"/>
+    </resources>
+</document>
