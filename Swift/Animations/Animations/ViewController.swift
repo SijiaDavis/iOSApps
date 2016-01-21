@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     }
     
     func doAnimation(){
-        if counter < 5 {
+        if counter < 7 {
             counter++
         }
         else {
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         
         
         // set timer
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: Selector("doAnimation"), userInfo:nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: Selector("doAnimation"), userInfo:nil, repeats: true)
     }
 
     override func didReceiveMemoryWarning() {
