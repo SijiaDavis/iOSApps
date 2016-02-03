@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22924E1080A8E128F7007B9 /* Pods_Import_Multiple_Pics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28B3FFAFBBFDAC3C15366B6 /* Pods_Import_Multiple_Pics.framework */; };
+		D73281441C518220003678CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73281431C518220003678CC /* AppDelegate.swift */; };
+		D73281461C518220003678CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73281451C518220003678CC /* ViewController.swift */; };
+		D73281491C518220003678CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73281471C518220003678CC /* Main.storyboard */; };
+		D732814C1C518221003678CC /* Import_Multiple_Pics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D732814A1C518220003678CC /* Import_Multiple_Pics.xcdatamodeld */; };
+		D732814E1C518221003678CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D732814D1C518221003678CC /* Assets.xcassets */; };
+		D73281511C518221003678CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D732814F1C518221003678CC /* LaunchScreen.storyboard */; };
+		D732815C1C518221003678CC /* Import_Multiple_PicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732815B1C518221003678CC /* Import_Multiple_PicsTests.swift */; };
+		D73281671C518221003678CC /* Import_Multiple_PicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73281661C518221003678CC /* Import_Multiple_PicsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D73281581C518221003678CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73281381C518220003678CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D732813F1C518220003678CC;
+			remoteInfo = "Import Multiple Pics";
+		};
+		D73281631C518221003678CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73281381C518220003678CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D732813F1C518220003678CC;
+			remoteInfo = "Import Multiple Pics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		129A7892C2180F0FC0AE5AF8 /* Pods-Import Multiple Pics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Import Multiple Pics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Import Multiple Pics/Pods-Import Multiple Pics.debug.xcconfig"; sourceTree = "<group>"; };
+		5D6DD5ABB6A741C83DA9BCE1 /* Pods-Import Multiple Pics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Import Multiple Pics.release.xcconfig"; path = "Pods/Target Support Files/Pods-Import Multiple Pics/Pods-Import Multiple Pics.release.xcconfig"; sourceTree = "<group>"; };
+		C28B3FFAFBBFDAC3C15366B6 /* Pods_Import_Multiple_Pics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Import_Multiple_Pics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73281401C518220003678CC /* Import Multiple Pics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Import Multiple Pics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73281431C518220003678CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D73281451C518220003678CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D73281481C518220003678CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D732814B1C518220003678CC /* Import_Multiple_Pics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Import_Multiple_Pics.xcdatamodel; sourceTree = "<group>"; };
+		D732814D1C518221003678CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73281501C518221003678CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D73281521C518221003678CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73281571C518221003678CC /* Import Multiple PicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Import Multiple PicsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D732815B1C518221003678CC /* Import_Multiple_PicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import_Multiple_PicsTests.swift; sourceTree = "<group>"; };
+		D732815D1C518221003678CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73281621C518221003678CC /* Import Multiple PicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Import Multiple PicsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73281661C518221003678CC /* Import_Multiple_PicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import_Multiple_PicsUITests.swift; sourceTree = "<group>"; };
+		D73281681C518221003678CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D732813D1C518220003678CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22924E1080A8E128F7007B9 /* Pods_Import_Multiple_Pics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73281541C518221003678CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D732815F1C518221003678CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		750D61ECD22022263CBC65F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				129A7892C2180F0FC0AE5AF8 /* Pods-Import Multiple Pics.debug.xcconfig */,
+				5D6DD5ABB6A741C83DA9BCE1 /* Pods-Import Multiple Pics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B3EE0CEE93B1A632719D1AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C28B3FFAFBBFDAC3C15366B6 /* Pods_Import_Multiple_Pics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D73281371C518220003678CC = {
+			isa = PBXGroup;
+			children = (
+				D73281421C518220003678CC /* Import Multiple Pics */,
+				D732815A1C518221003678CC /* Import Multiple PicsTests */,
+				D73281651C518221003678CC /* Import Multiple PicsUITests */,
+				D73281411C518220003678CC /* Products */,
+				750D61ECD22022263CBC65F6 /* Pods */,
+				8B3EE0CEE93B1A632719D1AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D73281411C518220003678CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73281401C518220003678CC /* Import Multiple Pics.app */,
+				D73281571C518221003678CC /* Import Multiple PicsTests.xctest */,
+				D73281621C518221003678CC /* Import Multiple PicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73281421C518220003678CC /* Import Multiple Pics */ = {
+			isa = PBXGroup;
+			children = (
+				D73281431C518220003678CC /* AppDelegate.swift */,
+				D73281451C518220003678CC /* ViewController.swift */,
+				D73281471C518220003678CC /* Main.storyboard */,
+				D732814D1C518221003678CC /* Assets.xcassets */,
+				D732814F1C518221003678CC /* LaunchScreen.storyboard */,
+				D73281521C518221003678CC /* Info.plist */,
+				D732814A1C518220003678CC /* Import_Multiple_Pics.xcdatamodeld */,
+			);
+			path = "Import Multiple Pics";
+			sourceTree = "<group>";
+		};
+		D732815A1C518221003678CC /* Import Multiple PicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D732815B1C518221003678CC /* Import_Multiple_PicsTests.swift */,
+				D732815D1C518221003678CC /* Info.plist */,
+			);
+			path = "Import Multiple PicsTests";
+			sourceTree = "<group>";
+		};
+		D73281651C518221003678CC /* Import Multiple PicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D73281661C518221003678CC /* Import_Multiple_PicsUITests.swift */,
+				D73281681C518221003678CC /* Info.plist */,
+			);
+			path = "Import Multiple PicsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D732813F1C518220003678CC /* Import Multiple Pics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D732816B1C518221003678CC /* Build configuration list for PBXNativeTarget "Import Multiple Pics" */;
+			buildPhases = (
+				A0FB2BDD2792ED01FEB7F58E /* Check Pods Manifest.lock */,
+				D732813C1C518220003678CC /* Sources */,
+				D732813D1C518220003678CC /* Frameworks */,
+				D732813E1C518220003678CC /* Resources */,
+				65CEF7DD2A1E48D37A829F2D /* Embed Pods Frameworks */,
+				E031141C723B25F134B56492 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Import Multiple Pics";
+			productName = "Import Multiple Pics";
+			productReference = D73281401C518220003678CC /* Import Multiple Pics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D73281561C518221003678CC /* Import Multiple PicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D732816E1C518221003678CC /* Build configuration list for PBXNativeTarget "Import Multiple PicsTests" */;
+			buildPhases = (
+				D73281531C518221003678CC /* Sources */,
+				D73281541C518221003678CC /* Frameworks */,
+				D73281551C518221003678CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D73281591C518221003678CC /* PBXTargetDependency */,
+			);
+			name = "Import Multiple PicsTests";
+			productName = "Import Multiple PicsTests";
+			productReference = D73281571C518221003678CC /* Import Multiple PicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D73281611C518221003678CC /* Import Multiple PicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73281711C518221003678CC /* Build configuration list for PBXNativeTarget "Import Multiple PicsUITests" */;
+			buildPhases = (
+				D732815E1C518221003678CC /* Sources */,
+				D732815F1C518221003678CC /* Frameworks */,
+				D73281601C518221003678CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D73281641C518221003678CC /* PBXTargetDependency */,
+			);
+			name = "Import Multiple PicsUITests";
+			productName = "Import Multiple PicsUITests";
+			productReference = D73281621C518221003678CC /* Import Multiple PicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73281381C518220003678CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SijiaDavis;
+				TargetAttributes = {
+					D732813F1C518220003678CC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D73281561C518221003678CC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D732813F1C518220003678CC;
+					};
+					D73281611C518221003678CC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D732813F1C518220003678CC;
+					};
+				};
+			};
+			buildConfigurationList = D732813B1C518220003678CC /* Build configuration list for PBXProject "Import Multiple Pics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73281371C518220003678CC;
+			productRefGroup = D73281411C518220003678CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D732813F1C518220003678CC /* Import Multiple Pics */,
+				D73281561C518221003678CC /* Import Multiple PicsTests */,
+				D73281611C518221003678CC /* Import Multiple PicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D732813E1C518220003678CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73281511C518221003678CC /* LaunchScreen.storyboard in Resources */,
+				D732814E1C518221003678CC /* Assets.xcassets in Resources */,
+				D73281491C518220003678CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73281551C518221003678CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73281601C518221003678CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65CEF7DD2A1E48D37A829F2D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Import Multiple Pics/Pods-Import Multiple Pics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FB2BDD2792ED01FEB7F58E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E031141C723B25F134B56492 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Import Multiple Pics/Pods-Import Multiple Pics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D732813C1C518220003678CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73281461C518220003678CC /* ViewController.swift in Sources */,
+				D73281441C518220003678CC /* AppDelegate.swift in Sources */,
+				D732814C1C518221003678CC /* Import_Multiple_Pics.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73281531C518221003678CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D732815C1C518221003678CC /* Import_Multiple_PicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D732815E1C518221003678CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73281671C518221003678CC /* Import_Multiple_PicsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D73281591C518221003678CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D732813F1C518220003678CC /* Import Multiple Pics */;
+			targetProxy = D73281581C518221003678CC /* PBXContainerItemProxy */;
+		};
+		D73281641C518221003678CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D732813F1C518220003678CC /* Import Multiple Pics */;
+			targetProxy = D73281631C518221003678CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D73281471C518220003678CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73281481C518220003678CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D732814F1C518221003678CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73281501C518221003678CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D73281691C518221003678CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D732816A1C518221003678CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D732816C1C518221003678CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129A7892C2180F0FC0AE5AF8 /* Pods-Import Multiple Pics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Import Multiple Pics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupehn.Import-Multiple-Pics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D732816D1C518221003678CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6DD5ABB6A741C83DA9BCE1 /* Pods-Import Multiple Pics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Import Multiple Pics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupehn.Import-Multiple-Pics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D732816F1C518221003678CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Import Multiple PicsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupehn.Import-Multiple-PicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Import Multiple Pics.app/Import Multiple Pics";
+			};
+			name = Debug;
+		};
+		D73281701C518221003678CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Import Multiple PicsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupehn.Import-Multiple-PicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Import Multiple Pics.app/Import Multiple Pics";
+			};
+			name = Release;
+		};
+		D73281721C518221003678CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Import Multiple PicsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupehn.Import-Multiple-PicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Import Multiple Pics";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D73281731C518221003678CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Import Multiple PicsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupehn.Import-Multiple-PicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Import Multiple Pics";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D732813B1C518220003678CC /* Build configuration list for PBXProject "Import Multiple Pics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73281691C518221003678CC /* Debug */,
+				D732816A1C518221003678CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D732816B1C518221003678CC /* Build configuration list for PBXNativeTarget "Import Multiple Pics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D732816C1C518221003678CC /* Debug */,
+				D732816D1C518221003678CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D732816E1C518221003678CC /* Build configuration list for PBXNativeTarget "Import Multiple PicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D732816F1C518221003678CC /* Debug */,
+				D73281701C518221003678CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73281711C518221003678CC /* Build configuration list for PBXNativeTarget "Import Multiple PicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73281721C518221003678CC /* Debug */,
+				D73281731C518221003678CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D732814A1C518220003678CC /* Import_Multiple_Pics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D732814B1C518220003678CC /* Import_Multiple_Pics.xcdatamodel */,
+			);
+			currentVersion = D732814B1C518220003678CC /* Import_Multiple_Pics.xcdatamodel */;
+			path = Import_Multiple_Pics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D73281381C518220003678CC /* Project object */;
+}
